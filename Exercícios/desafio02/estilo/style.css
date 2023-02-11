@@ -5,23 +5,18 @@
     padding: 0px;
 }
 
-html, body {
-    min-height: 100vh;
-    background-color: darkgray;
-}
-
 header {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-header > h1 {
+header h1 {
     padding-top: 50px;
     font-variant: small-caps;
 }
 
-header > p {
+header p {
     padding-bottom: 50px;
 }
 
@@ -39,22 +34,22 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+}
+section.normal p {
     padding-left: 30px;
+}
+section.imagem p {
+    padding-left: 30px;
+    background-color: rgb(45, 44, 44);
+    width: 50vw;
 }
 
 section.normal {
-    background-color: white;
-    color: black;
+
 }
 
 section.imagem {
-    background-color: rgb(23, 21, 21);
-    color: white;
-}
-
-section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 400px;
+    background-color: darkgray;
 }
 
 footer {
